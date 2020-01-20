@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+ 
+    <form action="/student/add" method="post">
+        <input type="text" placeholder="naam" name="naam">
+        <input type="text" placeholder="studierichting" name="studierichting">
+        <input type="text" placeholder="<%=new Date().getDate()+'-'+(new Date().getMonth()+1)+'-'+new Date().getFullYear()%>" name="geboortedatum">
+        <button type="submit">add</button>
+    </form>
+    
+</body>
+</html>

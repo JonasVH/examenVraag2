@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <% exam.forEach(exm => { %>
+        <ul>
+            <li>student: <%= exm.naam %></li>
+            <li>studieRichting: <%=exm.studierichting %> </li>
+            <li>geboortedatum: <%= exm.geboortedatum  %></li>
+        </ul>
+    <% }) %>
+    <a href="student/add">add leerling</a>
+    <a href="student/lijstalf">alfabetisch</a>
+</body>
+</html>
